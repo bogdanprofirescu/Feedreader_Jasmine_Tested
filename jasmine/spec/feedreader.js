@@ -139,7 +139,7 @@ $(function() {
             loadFeed(2,function(){
                 expect($('.feed').html()).not.toEqual(initialFeed);
                 done();
-            })
+            });
         });
 
     });
